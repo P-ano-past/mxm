@@ -7,7 +7,13 @@
 body {
     background-image: url(/assets/images/dot-grid/dot-grid/dot-grid.png);
     margin: 0;
+    padding: 0;
     height: 100%;
+}
+
+html {
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,6 +27,8 @@ p {
 
 a {
     background-color: transparent;
+    margin: 0;
+    padding: 0;
   }
   
   a:hover {
@@ -44,19 +52,17 @@ navbar {
     position: fixed;
     display: inline-flex;
     top: 0;
-    /* left: 12rem; */
-    /* width: 960px; */
     left: 0;
     width: 100%;
     margin: 0px;
-    padding: 0px 30px 0px 10px;
+    padding: 0px;
     box-shadow: 5px 5px 5px grey;
   }
   
   navbar ul {
     background-color: transparent;
     margin: 0px;
-    padding: 0px 0px 0pc 460px;
+    padding: 0px 0px 0px 460px;
     
   }
   
@@ -86,6 +92,7 @@ navbar {
     margin-left: 0;
     border-left: solid 1px rgb(221, 221, 221);
     border-right: solid 1px rgb(221, 221, 221);
+    padding: 15px;
     margin: 0px 0px 0px 180px;
 }
 
@@ -104,6 +111,13 @@ p {
     margin: 10px;
     padding: 10px;
     font-size: 20px;
+    line-height: 30px;
+}
+
+#p2 {
+    grid-column: 1 / span 5;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /* #aboutme-container {
@@ -114,13 +128,14 @@ p {
 .content {
     width: 960px;
     margin: 0px;
-    padding: 25px 25px;
+    padding: 35px 25px;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
     background-color: white;
     min-height: 100%;
+    border-radius: 8px;
     border: solid 1px;
-    border-top: double;
     border-color: #b9b9b9;
     box-shadow: 5px 5px 5px grey;
 }
@@ -140,13 +155,21 @@ p {
 }
 
 .content-container {
-    padding-top: 50px;
-    
+    padding-top: 80px;
+    padding-left: 70px;
 }
 
 .footer {
     border-top: 8px solid #4aaaa5;
-    height: 70px;
-    height: 50px;
-    margin-top: 50px;
+    /* height: 70px;
+    height: 50px; */
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: #666;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
 }
