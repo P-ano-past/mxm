@@ -110,7 +110,7 @@ navbar {
 #contact-tag {
     grid-column: 1 / span 6; 
     text-align: center;
-    
+    border-bottom:double #cccccc;
 }
 
 p {
@@ -125,12 +125,8 @@ p {
     grid-column: 1 / span 5;
     margin-top: 0;
     padding-top: 0;
+    border-bottom: 
 }
-
-/* #aboutme-container {
-    padding: 10px;
-
-} */
 
 .content {
     width: 960px;
@@ -190,6 +186,20 @@ p {
     margin: 0px;
 }
 
+.linkedin {
+    border: solid 1px rgb(99, 99, 99);
+    padding: 50px;
+    margin: 45px;
+    height: 40px;
+    width: 100px;
+}
+
+.linkedin-logo {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+
+}
+
 .email {
     font-size: 15px;
     padding: 10px 10px;
@@ -206,7 +216,7 @@ p {
     border-top: 8px solid #4aaaa5;
     /* height: 70px;
     height: 50px; */
-    margin: 50px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: #666;
     color: black;
