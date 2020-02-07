@@ -6,6 +6,7 @@
 
 body {
     background-image: url(/assets/images/dot-grid/dot-grid/dot-grid.png);
+    background-repeat: repeat;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -208,6 +209,8 @@ p {
     margin: 50px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     background-color: #666;
+    color: black;
+    font-size: 25px;
     position: absolute;
     width: 100%;
     left: 0;
