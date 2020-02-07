@@ -44,17 +44,19 @@ navbar {
     position: fixed;
     display: inline-flex;
     top: 0;
-    left: 12rem;
-    width: 960px;
+    /* left: 12rem; */
+    /* width: 960px; */
+    left: 0;
+    width: 100%;
     margin: 0px;
-    padding: 0px 20px 0px 20px;
+    padding: 0px 30px 0px 10px;
     box-shadow: 5px 5px 5px grey;
   }
   
   navbar ul {
     background-color: transparent;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0pc 460px;
     
   }
   
@@ -66,7 +68,7 @@ navbar {
     list-style: none;
     padding: 10px;
     margin: 10px; 
-    border-right: thick double #818181;
+    border-left: thick double #818181;
   } */
   
   navbar li a {
@@ -76,6 +78,15 @@ navbar {
 .heading {
     background-color: #4aaaa5;
     color: white;
+    
+}
+
+#heading-name {
+    padding-left: 0;
+    margin-left: 0;
+    border-left: solid 1px rgb(221, 221, 221);
+    border-right: solid 1px rgb(221, 221, 221);
+    margin: 0px 0px 0px 180px;
 }
 
 #aboutme {
