@@ -137,7 +137,7 @@ p {
     padding: 35px 25px;
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 60px 250px;
     background-color: white;
     min-height: 100%;
     border-radius: 8px;
@@ -166,36 +166,39 @@ p {
 }
 
 .gmicon {
-    height: 50px;
-    width: 50px;
-    padding: 0px 20px 0px 50px;
+    left: 8%;
+    top: 0%;
+    height: 60px;
+    width: 60px; 
+    padding: 0px 50px 0px 50px;
     margin: 0px;
     position: relative;
 }
 
 .github {
-    padding: 0px;
-    margin: 0px;
+    padding: 10px;
+    margin: 40px;
 }
 
+
 .ghlogo {
-    border: solid 1px;
+    border: solid 1px rgb(99, 99, 99);
     height: 40px;
     width: 100px;
-    padding: 70px;
-    margin: 15px;
+    padding: 50px;
+    margin: 0px;
 }
 
 .email {
     font-size: 15px;
-    padding: 0px 25px;
-    margin: 15px;
+    padding: 10px 10px;
+    margin: 0px;
 }
 
 .gmail {
-    padding: 25px;
-    margin: 15px;
-    border: solid 1px black;
+    padding: 10px;
+    margin: 55px;
+    border: solid 1px rgb(99, 99, 99);
 }
 
 .footer {
