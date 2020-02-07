@@ -106,6 +106,12 @@ navbar {
     padding: 0px;
 }
 
+#contact-tag {
+    grid-column: 1 / span 6; 
+    text-align: center;
+    
+}
+
 p {
     grid-column: 2 / span 5;
     margin: 10px;
@@ -157,6 +163,39 @@ p {
 .content-container {
     padding-top: 80px;
     padding-left: 70px;
+}
+
+.gmicon {
+    height: 50px;
+    width: 50px;
+    padding: 0px 20px 0px 50px;
+    margin: 0px;
+    position: relative;
+}
+
+.github {
+    padding: 0px;
+    margin: 0px;
+}
+
+.ghlogo {
+    border: solid 1px;
+    height: 40px;
+    width: 100px;
+    padding: 70px;
+    margin: 15px;
+}
+
+.email {
+    font-size: 15px;
+    padding: 0px 25px;
+    margin: 15px;
+}
+
+.gmail {
+    padding: 25px;
+    margin: 15px;
+    border: solid 1px black;
 }
 
 .footer {
